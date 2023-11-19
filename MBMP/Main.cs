@@ -33,11 +33,13 @@ namespace MBMP
         {
             if (SceneManager.GetActiveScene().name == "Master")
             {
+                // Log stuff
+                Logger.LogInfo(Gameplay.i.PlayerWalking.transform.position);
+
                 RunActiveEffects();
             }
 
-            // Log stuff
-            Logger.LogInfo(Gameplay.i.PlayerWalking.transform.position);
+            
         }
 
         private void RunActiveEffects()
