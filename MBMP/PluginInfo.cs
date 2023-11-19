@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MBCM
+namespace MBMP
 {
     public static class PluginInfo
     {
-        public const string Name = "MBCM";
+        public const string Name = "MBMP";
         public const string Version = "1.0.0";
-        public const string GUID = "com.monbazou.mbcm";
-        public static string[] Authors = { "superfroggman" };
+        public const string GUID = "com.monbazou.mbmp";
+        public static string[] Authors = { "superfroggman", "linusromland" };
     }
 }
