@@ -35,6 +35,9 @@ namespace MBMP
             {
                 RunActiveEffects();
             }
+
+            // Log stuff
+            Logger.LogInfo(Gameplay.i.PlayerWalking.transform.position);
         }
 
         private void RunActiveEffects()
@@ -75,7 +78,7 @@ namespace MBMP
         {
             if (SceneManager.GetActiveScene().name == "Master")
             {
-                _window = GUILayout.Window(46489, _window, menu, "Chaos");
+                _window = GUILayout.Window(46489, _window, menu, "Multiplayer menu");
             }
         }
 
