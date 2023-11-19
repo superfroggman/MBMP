@@ -7,8 +7,8 @@
     <ProjectGuid>{B93E6693-3D2A-4F4F-BB08-A071358CAFCA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MBCM</RootNamespace>
-    <AssemblyName>MBCM</AssemblyName>
+    <RootNamespace>MBMP</RootNamespace>
+    <AssemblyName>MBMP</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
